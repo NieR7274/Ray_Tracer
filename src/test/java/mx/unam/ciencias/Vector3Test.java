@@ -16,7 +16,7 @@ public class Vector3Test {
         Vector3 suma = Vector3.sumar(a, b);
         assertEquals(5.0, suma.x(), E);
         assertEquals(7.0, suma.y(), E);
-        assertEquals(9.0, suma.z(), E   );
+        assertEquals(9.0, suma.z(), E);
 
         Vector3 resta = Vector3.restar(b, a);
         assertEquals(3.0, resta.x(), E);

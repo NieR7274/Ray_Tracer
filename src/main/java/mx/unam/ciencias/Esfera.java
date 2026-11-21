@@ -22,6 +22,7 @@ public class Esfera implements Figura {
 
         // Coeficientes simplificados de la ecuacion cuadratica (at^2 - 2ht + c = 0)
         // Evita multiplicar y dividir por 2 y 4 en cada calculo
+        // aparece en el libro en la seccion 6.2
         double a = rayo.direccion().magnitudAlCuadrado();
         double h = Vector3.productoPunto(rayo.direccion(), origenACentro);
         double c = origenACentro.magnitudAlCuadrado() - radio * radio;
