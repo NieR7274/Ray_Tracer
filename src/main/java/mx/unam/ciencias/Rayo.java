@@ -5,13 +5,13 @@ public class Rayo {
     private Vector3 origen;
     private Vector3 direccion;
 
-    // Constructor por defecto (inicializa origen y direccion en cero para evitar null)
+    // Constructor por defecto 
     public Rayo() {
         this.origen = new Vector3();
         this.direccion = new Vector3();
     }
 
-    // Constructor principal a partir de un punto de origen y un vector de direccion
+    // Constructor  a partir de un punto de origen y un vector de direccion
     public Rayo(Vector3 origen, Vector3 direccion) {
         this.origen = origen;
         this.direccion = direccion;
