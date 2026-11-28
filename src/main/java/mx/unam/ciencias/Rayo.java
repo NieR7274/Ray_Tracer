@@ -2,8 +2,8 @@ package mx.unam.ciencias;
 
 
 public class Rayo {
-    private Vector3 origen;
-    private Vector3 direccion;
+    private Vector3 origen; 
+    private Vector3 direccion; 
 
     // Constructor por defecto 
     public Rayo() {
