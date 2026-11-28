@@ -4,7 +4,8 @@ import java.util.Optional;
 
 public class Renderizador {
 
-    private static final double EPS = 0.001;
+
+    private static final double EPS = 0.001; // lo podriamos cambiar por : E = 1e-6, para ser mas homogeneo los scripts.
 
     // Color de un rayo: fondo si no toca nada, iluminacion de Lambert si toca algo
     public static Vector3 colorDeRayo(Escena escena, Rayo rayo) {
